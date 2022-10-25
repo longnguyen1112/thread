@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\ScottKast\Desktop\Work\PassRecordToThread\Hurricane\Source.c(49,34): warning C4013: '_beginthreadex' undefined; assuming extern returning int
+C:\Users\ScottKast\Desktop\Work\PassRecordToThread\Hurricane\Source.c(84): warning C4716: 'DoWork': must return a value
+  Hurricane.vcxproj -> C:\Users\ScottKast\Desktop\Work\PassRecordToThread\Debug\Hurricane.exe

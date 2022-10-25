@@ -1,0 +1,3 @@
+﻿  Source.c
+C:\Users\long.nguyen\Desktop\PassRecordToThread\thread\Hurricane\Source.c(93): warning C4716: 'DoWork': must return a value
+  Hurricane.vcxproj -> C:\Users\long.nguyen\Desktop\PassRecordToThread\thread\x64\Debug\Hurricane.exe
