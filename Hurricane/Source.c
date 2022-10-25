@@ -53,6 +53,23 @@ int _tmain(int argc, LPTSTR argv[])
 	{
 		printf("not enough command");
 	}
+	else
+	{
+		int numOfThread = argc - 1;
+		for (int i = 0; i < numOfThread; i++)
+		{
+			threadHandle[i] = (HANDLE)beginthreadex(NULL, 0, DoWork, argv[i + 1], 0, NULL);
+			if (threadHandle[i] == NULL)
+			{
+				printf("could not start up thread");
+			}
+		}
+
+		for (int i = 0; i < numOfThread; i++)
+		{
+			WaitForSingleObject(threadHandle[i], INFINITE);
+		}
+	}
 
 	/*HANDLE worker1, worker2;
 	int sizeoffile = 1000;
