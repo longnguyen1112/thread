@@ -87,7 +87,7 @@ int _tmain(int argc, LPTSTR argv[])
 
 WORD WINAPI DoWork(pinfo_rec data)
 {
-	int len = strlen(data->message+1);
+	int len = strlen(data->message);
 	data->num = 0;
 	for (int i = 0; i <= (size - len); i++)
 	{
