@@ -1,3 +1,8 @@
 ﻿  Source.c
-C:\Users\long.nguyen\Desktop\PassRecordToThread\thread\Hurricane\Source.c(93): warning C4716: 'DoWork': must return a value
+C:\Users\long.nguyen\Desktop\PassRecordToThread\thread\Hurricane\Source.c(49,28): warning C4244: '=': conversion from 'LONGLONG' to 'int', possible loss of data
+C:\Users\long.nguyen\Desktop\PassRecordToThread\thread\Hurricane\Source.c(71,44): warning C4013: '_beginthreadex' undefined; assuming extern returning int
+C:\Users\long.nguyen\Desktop\PassRecordToThread\thread\Hurricane\Source.c(71,84): warning C4312: 'type cast': conversion from 'int' to 'HANDLE' of greater size
+C:\Users\long.nguyen\Desktop\PassRecordToThread\thread\Hurricane\Source.c(84,7): warning C4013: 'getch' undefined; assuming extern returning int
+C:\Users\long.nguyen\Desktop\PassRecordToThread\thread\Hurricane\Source.c(90,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\long.nguyen\Desktop\PassRecordToThread\thread\Hurricane\Source.c(101): warning C4716: 'DoWork': must return a value
   Hurricane.vcxproj -> C:\Users\long.nguyen\Desktop\PassRecordToThread\thread\x64\Debug\Hurricane.exe
